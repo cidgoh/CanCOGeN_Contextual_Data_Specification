@@ -16,7 +16,9 @@
 
 ## About
 
-The Canadian COVID-19 Genomics Network (CanCOGeN) was set up in April 2020. Established by Genome Canada, this national initiative involves various public health agencies, academic institutions, and research organizations across Canada and aims to coordinate and enhance the genomic sequencing of the SARS-CoV-2 virus and the human host.
+The [Canadian COVID-19 Genomics Network (CanCOGeN)](https://genomecanada.ca/challenge-areas/cancogen/) was set up in April 2020. Established by Genome Canada, this national initiative involves various public health agencies, academic institutions, and research organizations across Canada and aims to coordinate and enhance the genomic sequencing of the SARS-CoV-2 virus and the human host.
+
+The CanCOGeN Data specification is designed to enhance the sharing and interoperability of genomic and clinical data in the fight against the COVID-19 pandemic. By providing a unified framework for data collection, storage, and exchange, this standard supports collaborative research and informed policy decisions. The specification aims to accelerate scientific discoveries and improve public health responses through seamless integration and accessibility of critical data, fostering a coordinated approach to pandemic preparedness and response. 
 
 <SETUP: you'll need to manual create "term request" and "field request" labels in order for the issue forms to apply them when generated. You'll also want to go through documentation and replace all the <INSERT values with appropriate information.>
 
@@ -26,9 +28,9 @@ Labs collect, encode and store information in different ways. They use different
 
 Ontologies are collections of controlled vocabulary that are arranged in a hierarchy, where all the terms are linked using logical relationships. Ontologies are open source and meant to represent “universal truth” as much as possible (so not tied to one organization’s vocabulary of use case). Ontologies encode synonyms, which enables mapping between the specific languages used by different organizations, and every term in the ontology is assigned a globally unique and persistent identifier. Using ontology terms to standardize GRDI-AMR contextual data not only helps make data more interoperable by using a common language, it also helps to make contextual data [FAIR](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable, Reusable).
 
-## The <insert name> Contextual Data Specification Package
+## The CanCOGeN Contextual Data Specification Package
 
-This specification is implemented via <spreadsheet-based data collection instrument, a DataHarmonizer validation template, other...>, accompanying **Field** and **Term reference guides** (which provide definitions and additional specific guidance) and a curation **Standard Operating Procedure (SOP)**. New terms and/or term changes can be requested using issue request forms, with additional guidance on how to do so outline in the New Term Request (NTR) SOP. This resources are available in the files of this repository and listed below under **Package Contents**.
+This specification is implemented via a DataHarmonizer validation template, accompanying **Field** and **Term reference guides** (which provide definitions and additional specific guidance) and a curation **Standard Operating Procedure (SOP)**. However, any tool can be utilised to implement this specification. New terms and/or term changes can be requested using issue request forms, with additional guidance on how to do so outline in the New Term Request (NTR) SOP. This resources are available in the files of this repository and listed below under **Package Contents**.
 
 ### Version Control
 

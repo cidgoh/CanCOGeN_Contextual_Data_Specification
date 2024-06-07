@@ -1,4 +1,4 @@
-# The <insert name> Contextual Data Specification
+# The CanCOGeN Contextual Data Specification
 
   - [About](#about)
   - [What are ontologies and how do they improve data quality?](#what-are-ontologies-and-how-do-they-improve-data-quality)
@@ -16,7 +16,8 @@
 
 ## About
 
-<Blurb>
+The Canadian COVID-19 Genomics Network (CanCOGeN) was set up in April 2020. Established by Genome Canada, this national initiative involves various public health agencies, academic institutions, and research organizations across Canada and aims to coordinate and enhance the genomic sequencing of the SARS-CoV-2 virus and the human host.
+
 <SETUP: you'll need to manual create "term request" and "field request" labels in order for the issue forms to apply them when generated. You'll also want to go through documentation and replace all the <INSERT values with appropriate information.>
 
 ## What are ontologies and how do they improve data quality?

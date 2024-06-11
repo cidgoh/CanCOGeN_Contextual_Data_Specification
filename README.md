@@ -2,7 +2,7 @@
 
   - [About](#about)
   - [What are ontologies and how do they improve data quality?](#what-are-ontologies-and-how-do-they-improve-data-quality)
-  - [The  Contextual Data Specification Package](#the--contextual-data-specification-package)
+  - [The CanCOGeN Contextual Data Specification Package](#the-cancogen-contextual-data-specification-package)
     - [Version Control](#version-control)
     - [Package Contents](#package-contents)
       - [Data Collection Template](#data-collection-template)
@@ -18,9 +18,13 @@
 
 The [Canadian COVID-19 Genomics Network (CanCOGeN)](https://genomecanada.ca/challenge-areas/cancogen/) was set up in April 2020. Established by Genome Canada, this national initiative involves various public health agencies, academic institutions, and research organizations across Canada and aims to coordinate and enhance the genomic sequencing of the SARS-CoV-2 virus and the human host.
 
-The CanCOGeN Data specification is designed to enhance the sharing and interoperability of genomic and clinical data in the fight against the COVID-19 pandemic. By providing a unified framework for data collection, storage, and exchange, this standard supports collaborative research and informed policy decisions. The specification aims to accelerate scientific discoveries and improve public health responses through seamless integration and accessibility of critical data, fostering a coordinated approach to pandemic preparedness and response. 
+The CanCOGeN Data specification is designed to enhance the sharing and interoperability of genomic and clinical data in the fight against the COVID-19 pandemic. Developed collaboratively with input from a wide range of public health agencies, academic institutions, and research organizations, this standard provides a unified framework for data collection, storage, and exchange. It supports collaborative research and informed policy decisions while emphasizing stringent data privacy and security measures to protect sensitive information, ensuring compliance with ethical and legal guidelines. 
 
-<SETUP: you'll need to manual create "term request" and "field request" labels in order for the issue forms to apply them when generated. You'll also want to go through documentation and replace all the <INSERT values with appropriate information.>
+
+## The CanCOGeN Contextual Data Specification Package
+
+This specification is implemented via a DataHarmonizer validation template, accompanying **Field** and **Term reference guides** (which provide definitions and additional specific guidance) and a curation **Standard Operating Procedure (SOP)**. However, any tool can be utilised to implement this specification. New terms and/or term changes can be requested using issue request forms, with additional guidance on how to do so outline in the New Term Request (NTR) SOP. This resources are available in the files of this repository and listed below under **Package Contents**.
+
 
 ## What are ontologies and how do they improve data quality?
 
@@ -28,9 +32,6 @@ Labs collect, encode and store information in different ways. They use different
 
 Ontologies are collections of controlled vocabulary that are arranged in a hierarchy, where all the terms are linked using logical relationships. Ontologies are open source and meant to represent “universal truth” as much as possible (so not tied to one organization’s vocabulary of use case). Ontologies encode synonyms, which enables mapping between the specific languages used by different organizations, and every term in the ontology is assigned a globally unique and persistent identifier. Using ontology terms to standardize GRDI-AMR contextual data not only helps make data more interoperable by using a common language, it also helps to make contextual data [FAIR](https://www.go-fair.org/fair-principles/) (Findable, Accessible, Interoperable, Reusable).
 
-## The CanCOGeN Contextual Data Specification Package
-
-This specification is implemented via a DataHarmonizer validation template, accompanying **Field** and **Term reference guides** (which provide definitions and additional specific guidance) and a curation **Standard Operating Procedure (SOP)**. However, any tool can be utilised to implement this specification. New terms and/or term changes can be requested using issue request forms, with additional guidance on how to do so outline in the New Term Request (NTR) SOP. This resources are available in the files of this repository and listed below under **Package Contents**.
 
 ### Version Control
 
@@ -40,39 +41,39 @@ Please note that development of the specification is dynamic and it will be upda
 `y` = Term value / ID level changes <br>
 `z` = Definition, guidance, example, formatting, or other uncategorized changes
 
-Descriptions of changes are provided in [release notes](https://github.com/cidgoh/<INSERT REPOSITORY NAME>/releases) for every new version.
+Descriptions of changes are provided in [release notes](https://github.com/cidgoh/CanCOGeN_One_Health/releases) for every new version.
+
 
 ### Package Contents
 
 #### Data Collection Template
-- [Pathogen Genomics Package (**<INSERT SPEC TEMPLATE NAME>**)](https://github.com/cidgoh/pathogen-genomics-package/releases)
-  - Template schema files can be found as `.yaml`/`.json`/`.tsv` under [pathogen-genomics-package/templates/](https://github.com/cidgoh/pathogen-genomics-package/tree/main/templates)**<INSERT SPEC TEMPLATE FOLDER NAME>**
+- [Pathogen Genomics Package (**CanCOGeN**)](https://github.com/cidgoh/pathogen-genomics-package/releases)
+  - Template schema files can be found as `.yaml`/`.json`/`.tsv` under [pathogen-genomics-package/templates/](https://github.com/cidgoh/pathogen-genomics-package/tree/main/templates)**canada_covid19**
 - [DataHarmonizer App](https://github.com/cidgoh/DataHarmonizer)
   - The DataHarmonizer is a standardized browser-based spreadsheet editor and validator.
   - Instructions on "Getting Started" downloading and using the application can be found under **DataHarmonizer Instructions and SOP** below.
   - Further information about application functionality can be found on the [DataHarmonizer Wiki](https://github.com/cidgoh/pathogen-genomics-package/wiki/DataHarmonizer-Getting-Started).
 
 #### Field and Term Reference Guides
-- [XLSX version]()
-- PDF version
-  - [Field Reference Guide]()
-  - [Term Reference Guide]()
-- [Online version]()
+- [XLSX version](https://github.com/cidgoh/CanCOGeN_One_Health/blob/main/Reference%20Guide/CanCOGeN_Master-Reference-Guide_v1.0.0.xlsx)
+- [Field Reference Guide](https://github.com/cidgoh/CanCOGeN_One_Health/blob/main/Reference%20Guide/CanCOGeN_Field-Reference-Guide_v1.0.0.pdf)
+- [Term Reference Guide](https://github.com/cidgoh/CanCOGeN_One_Health/blob/main/Reference%20Guide/CanCOGeN_Term-Reference-Guide_v1.0.0.pdf)
+
 
 #### Curation SOP
-- [PDF version]()
-- [Online version]()
+- [PDF version](https://github.com/cidgoh/CanCOGeN_One_Health/tree/main/SOPs)
+- [Online version](https://docs.google.com/document/d/e/2PACX-1vR4UkqrLaj1-9jxmrNk9mZ4S4Siim8onPHqgdXKd9m1lOroXmekClfPsXlqgFDio1rWZW7lHArSAbOg/pub)
 
 #### DataHarmonizer Instructions and SOP
-- [PDF version]()
+- [PDF version](https://github.com/cidgoh/CanCOGeN_One_Health/tree/main/SOPs)
 - [Online version]()
 
 #### New Term Request (NTR) SOP
-- [PDF version]()
-- [Online version]()
+- [PDF version](https://github.com/cidgoh/CanCOGeN_One_Health/tree/main/SOPs)
+- [Online version](https://docs.google.com/document/d/e/2PACX-1vSLfdjK53wqgq9kvrPfovwtBOUQGPEOetb4rMq9t1De5A6V1iHrGZzUPfIGp-KXk3_qLiiXLSdEB5tF/pub)
 
 ## Contacts
-For more information and/or assistance, contact <INSERT CONTACT NAME> at <INSERT CONTACT EMAIL> or submit a repository [issue request](<INSERT REPOSITORY ISSUES URL>).
+For more information and/or assistance, contact Emma Griffiths at emma_griffiths@sfu.ca or submit a repository [issue request](https://github.com/cidgoh/CanCOGeN_One_Health/issues).
 
 ## License
 
@@ -80,6 +81,6 @@ _Pending / To Be Determined_
 
 ## Acknowledgements
 
-Brought to you by The [Centre for Infectious disease Genomics and One Health](https://cidgoh.ca/)<and INSERT COLLABORATOR NAMES>
+Brought to you by The [Centre for Infectious disease Genomics and One Health](https://cidgoh.ca/)
 
 ![LogoCIDGOH2](https://github.com/cidgoh/specification-repo-template/assets/48695054/87fa713d-8fd7-453d-8542-fc413069e842)

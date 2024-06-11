@@ -16,7 +16,7 @@
 
 ## About
 
-The CanCOGeN Data specification is designed to enhance the sharing and interoperability of genomic and clinical data in the fight against the COVID-19 pandemic. Developed collaboratively with input from a wide range of public health agencies, academic institutions, and research organizations, this standard provides a unified, ontology based framework for data collection, storage, and exchange. It supports collaborative research and informed policy decisions while emphasizing stringent data privacy and security measures to protect sensitive information, ensuring compliance with ethical and legal guidelines. See Genome Canada's website or more information on the [The Canadian COVID-19 Genomics Network (CanCOGeN)]https://genomecanada.ca/challenge-areas/cancogen/
+The CanCOGeN Data specification is designed to enhance the sharing and interoperability of genomic and clinical data in the fight against the COVID-19 pandemic. Developed collaboratively with input from a wide range of public health agencies, academic institutions, and research organizations, this standard provides a unified, ontology based framework for data collection, storage, and exchange. It supports collaborative research and informed policy decisions while emphasizing stringent data privacy and security measures to protect sensitive information, ensuring compliance with ethical and legal guidelines. See Genome Canada's website or more information on the [The Canadian COVID-19 Genomics Network (CanCOGeN)](https://genomecanada.ca/challenge-areas/cancogen/).
 
 ## What are ontologies and how do they improve data quality?
 

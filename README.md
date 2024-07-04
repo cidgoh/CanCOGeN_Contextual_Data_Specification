@@ -30,7 +30,9 @@ Ontologies are collections of controlled vocabulary that are arranged in a hiera
 
 ## The CanCOGeN Contextual Data Specification Package
 
-This specification is implemented via a DataHarmonizer validation template, accompanying **Field** and **Term reference guides** (which provide definitions and additional specific guidance) and a curation **Standard Operating Procedure (SOP)**. However, any tool can be utilised to implement this specification. New terms and/or term changes can be requested using issue request forms, with additional guidance on how to do so outline in the New Term Request (NTR) SOP. This resources are available in the files of this repository and listed below under **Package Contents**.
+This specification is currently only implemented via a DataHarmonizer validation template however, any tool can be utilised to implement this specification. Accompanying **Field** and **Term reference guides** (which provide definitions and additional specific guidance) and a curation **Standard Operating Procedure (SOP)** can also be found in this repository. 
+
+New terms and/or term changes can be requested using [issue request forms](https://github.com/cidgoh/CanCOGeN_Contextual_Data_Specification/issues/new/choose), with additional guidance on how to do so outline in the New Term Request (NTR) SOP. This resources are available in the files of this repository and listed below under **Package Contents**.
 
 ### Version Control
 

@@ -22,4 +22,4 @@ Microsoft Excel Open XML Format Spreadsheet file, opening in other applications 
 
 - `CanCOGeN_Field-Reference-Guide_v1.0.0.pdf` a PDF printout of the "Field Reference Guide" tab within the Master reference .xlsx file.
 
-- `CanCOGeN_Term-Reference-Guidev1.0.0.pdf` a PDF printout of the "Term Reference Guide" tab within the Master reference .xlsx file.
+- `CanCOGeN_Term-Reference-Guide_v1.0.0.pdf` a PDF printout of the "Term Reference Guide" tab within the Master reference .xlsx file.

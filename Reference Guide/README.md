@@ -1,4 +1,4 @@
-# <INSERT NAME> Contextual Data Reference Guide
+# CanCOGeN Contextual Data Reference Guide
 
 The contents of this directory include **field** and **term** reference guides to accompany the template-based implementation of the CanCOGeN contextual data specification. 
 
@@ -6,20 +6,17 @@ Reference guides provide ontology IDs, definitions, and specific curation guidan
 
 ## Version Information
 
-The following version information regarding field/piclkist term values are available within the reference guide file(s):
+In addition to the current label and ID, the following version information regarding field/picklist term values are available within the reference guide file(s):
 
 - **Deprecated Label** // Recorded to facilitate manual or software normalization to the appropriate label.
 - **Deprecated ID** // Recorded to facilitate manual or software normalization to the appropriate ontology identifier (ID).
-- **Version Tracking: Label** // The release number indicating when this concept label was released or last updated.
-- **Version Tracking: ID** // The release number indicating when this concept ID was released or last updated.
-- **Version Tracking: Description/Guidance** // The release number indicating when one or more of these data elements were released or last updated.
-- **Editor Notes** // May or may not be included in the package. Used to help curators track relevant discussions, ontology new term requests, etc.
+
 
 ## Files
 
-- `CanCOGeN_Master-Reference-Guide_v1.0.0.xlsx` 
+- `CanCOGeN_Master-Reference-Guide_v2.5.2.xlsx` 
 Microsoft Excel Open XML Format Spreadsheet file, opening in other applications only risks the loss of superficial formatting (shaded cells, bold text, etc.).
 
-- `CanCOGeN_Field-Reference-Guide_v1.0.0.pdf` a PDF printout of the "Field Reference Guide" tab within the Master reference .xlsx file.
+- `CanCOGeN_Field-Reference-Guide_v2.5.2.pdf` a PDF printout of the "Field Reference Guide" tab within the Master reference .xlsx file.
 
-- `CanCOGeN_Term-Reference-Guide_v1.0.0.pdf` a PDF printout of the "Term Reference Guide" tab within the Master reference .xlsx file.
+- `CanCOGeN_Term-Reference-Guide_v2.5.2.pdf` a PDF printout of the "Term Reference Guide" tab within the Master reference .xlsx file.

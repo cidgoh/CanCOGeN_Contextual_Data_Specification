@@ -27,8 +27,8 @@ _Incrementing up one point for any number of changes._
   - [ ] Versioning `x.y` (same as template, minus "z" changes since those don't come up in the protocol")
 - [ ] Upload updated **"[New Term Request SOP](<INSERT LINK TO EDITABLE GOOGLE DOC>)"**.
   - [ ] Versioning `x.y` (independent versioning since changes to the specification/template doesn't impact this protocol)
-- [ ] **Draft a new release** ([Example](https://github.com/cidgoh/GRDI_AMR_One_Health/releases/tag/v7.7.5)):
-  - [ ] Release title: `GRDI-AMR specification package #.#.#`
+- [ ] **Draft a new release** ([Example](https://github.com/cidgoh/CanCOGeN_Contextual_Data_Specification/releases/tag/v7.7.5)):
+  - [ ] Release title: `CanCOGeN specification package #.#.#`
   - [ ] Choose a tag: `v#.#.#` (create a new tag)
   - [ ] Include **"Contents:"** section that lists the files and their individual version information
      > Data Collection Template #.#.# <br> Field and Term Reference Guides #.#.# <br> Curation Standard Operating Procedure (SOP) #.#.# <br> DataHarmonizer Download and Operation Instructions (SOP) #.# <br> New Term Request Standard Operating Procedure (SOP) #.#
